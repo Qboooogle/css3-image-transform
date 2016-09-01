@@ -1,0 +1,37 @@
+html {
+	background:linear-gradient(#fe4 0%, #040 80%);
+	height:120%;
+}
+.box {
+	display:inline-block;
+	width:1220px;
+	marign:0 auto;
+	background-color:#000;
+	-webkit-filter:blur(15px) saturate(400%);
+	cursor:none;
+	transform-style:preserve-3d;
+}
+.box:after {
+	clear:both;
+	content:'';
+	display:block;
+	overflow:hidden;
+}
+.box .repulse {
+    display:block;
+    width:80px;
+    height:60px;
+    background:#add8e6;
+    position: absolute;
+    border-radius:100%;
+    -webkit-filter:saturate(300%);
+}
+.box span {
+	float:left;
+	width:80px;
+	height:60px;
+	border-radius:100%;
+	background-color:#f00;
+	margin:20px;
+	transform:translateZ(0px);
+}
